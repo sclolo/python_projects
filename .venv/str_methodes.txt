@@ -1,0 +1,27 @@
+ch.count(sub): Retourne le nombre d’occurrences de sub dans ch
+
+ch.endswith(suffix): Retourne True si ch se termine par suffix
+
+ch.startswith(prefix): Retourne True si ch commence par prefix
+
+ch.find(sub): Retourne l’indice du début de la première occurrence de sub dans ch
+
+ch.rfind(sub): Retourne l’indice du début de la dernière occurrence de sub dans ch
+
+ch.islower(): Retourne True si ch est constituée uniquement de caractères minuscules
+
+ch.isupper(): Retourne True si ch est constituée uniquement de caractères majuscules
+
+ch.isnumeric(): Retourne True si ch est constituée uniquement de chiffres
+
+ch.lower(): Retourne la version minuscule de ch
+
+ch.upper(): Retourne la version majuscule de ch
+
+ch.replace(old, new): Retourne une copie de ch dans laquelle toutes les occurrences de old ont été remplacées par new
+
+ch.split(sep=None): Retourne une liste contenant des morceaux de ch découpée à chaque occurrence de sep (par défaut, la chaîne est decoupée à chaque espace ou retour à la ligne)
+
+ch.strip(): Retourne une version « nettoyée » de ch dans laquelle on a enlevé tous les espaces en début et en fin de chaîne
+
+ch.format(...): Remplace les caractères {} dans la chaîne ch par le contenu des variables passées en argument
